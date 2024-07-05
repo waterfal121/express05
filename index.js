@@ -6,7 +6,7 @@ console.log(singers);
 const app = express();
 
 app.get("/", (req, res) => {
-	res.send("welcome to 首頁~");
+	// res.send("welcome to 首頁~");
   res.redirect("/singer/1.html")
 }); // 看老師示範07050943
 
